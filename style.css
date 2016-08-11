@@ -8,12 +8,23 @@ body {
     height: inherit;
 }
 
-p {
+button {
     left: calc((100vw / 2) - 165px);
     top: calc(30.5vh);
     position: absolute;
     height: 30px;
     width: 30px;
+    background-color: transparent;
+    border: none;
+
+}
+
+button:hover {
+    cursor: initial;
+}
+
+button:focus {
+    outline: none;
 }
 
 input[type=text] {
