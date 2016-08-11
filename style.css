@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("waldo.jpg");
+    background-position: center;
+    height: inherit;
+}
+
+p {
+    left: calc((100vw / 2) - 165px);
+    top: calc(30.5vh);
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+input[type=text] {
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: inherit;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+#pwForm {
+    width: 100%;
+}
+
+.modal-dialog {
+    top: 30vh;
+}
+
+.modal-body {
+    width: 100%;
+}
