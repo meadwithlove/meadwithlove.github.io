@@ -1,36 +1,22 @@
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Just A Regular Website...</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Nothing weird here...">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-</head>
+---
+layout: default
+---
 
-<body>
-    <button type="button" data-toggle="modal" data-target="#myModal"></button>
+<button type="button" data-toggle="modal" data-target="#myModal"></button>
 
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog modal-sm" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">What's the password?</h4>
-                </div>
-                <div class="modal-body">
-                    <form id="pwForm" action="http://meadwithlove.github.io/summer_thyme.jpg">
-                        <input id="pw" type="text" name="pw">
-                        <input type="submit" style="display: none;">
-                    </form>
-                </div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">What's the password?</h4>
+            </div>
+            <div class="modal-body">
+                <form id="pwForm" action="{{ site.baseurl }}/signup/">
+                    <input id="pw" type="text" name="pw">
+                    <input type="submit" style="display: none;">
+                </form>
             </div>
         </div>
     </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-</body>
-</html>
+</div>

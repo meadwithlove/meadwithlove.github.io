@@ -3,17 +3,17 @@ html {
 }
 
 body {
-    background-image: url("waldo.jpg");
+    background-image: url("../img/waldo.jpg");
     background-position: center;
     height: inherit;
 }
 
 button {
-    left: calc((100vw / 2) - 165px);
-    top: calc(30.5vh);
+    left: calc((100vw / 2) + 355px);
+    top: calc(78vh);
     position: absolute;
-    height: 30px;
-    width: 30px;
+    height: 60px;
+    width: 60px;
     background-color: transparent;
     border: none;
 

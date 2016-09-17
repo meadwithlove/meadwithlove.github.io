@@ -1,0 +1,19 @@
+# Site settings
+title: Mead With Love
+email: meadwithlove@gmail.com
+description: "Mead With Love is made with love."
+baseurl: ""
+url: "meadwithlove.github.io"
+imgurl: "/assets/img"
+jsurl: "/assets/js"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: assets/css
+  style: :compressed
+
+gems:
+  - jekyll-sitemap
